@@ -1,0 +1,1 @@
+This code helps maintain an inventory of products and process customer orders.

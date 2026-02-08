@@ -60,7 +60,12 @@ inventory.forEach(function(prod) {
     console.log(`${prod.Sku} | ${prod.Name} | $${prod.Price} | ${prod.Stock}`)
 });
 
-
+//Create an array named orders
+let orders = [
+    {
+    
+    }
+]
 
 
 
