@@ -1,3 +1,5 @@
+//Created the Array for inventory
+
 let inventory = [
     {
         Sku: "SKU-002",
@@ -29,6 +31,7 @@ let inventory = [
     }
 ];
 
+// forEach with template literals
 inventory.forEach(function(prod) {
     console.log(`${prod.Sku} | ${prod.Name} | $${prod.Price} | ${prod.Stock}`)
 });
